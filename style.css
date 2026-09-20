@@ -2,7 +2,7 @@ body{
     background-color: aqua;
     color: black;
 }
-:default{
+.default{
     border: 2px solid black;
     margin: 1cm;
 }
