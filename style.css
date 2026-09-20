@@ -26,3 +26,19 @@ font-weight: 500;
 .p6{
     text-align: center;
 }
+
+.p7{
+    text-decoration: line-through;
+}
+
+.p8{
+    line-height: 2px;
+}
+
+.p9{
+    letter-spacing: 2px;
+}
+
+.p10{
+    word-spacing: 5px;
+}
