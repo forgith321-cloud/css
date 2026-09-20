@@ -14,8 +14,15 @@ body{
 
 .p4{
 display: inline-block;
+background-color: white;
 }
 
 .p5{
-    
+font-family: cursive;
+font-size: 24;
+font-weight: 500;
+}
+
+.p6{
+    text-align: center;
 }
