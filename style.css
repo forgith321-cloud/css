@@ -1,1 +1,409 @@
-
+body {
+    background-color: white;
+    font-family: Arial;
+}
+ 
+h1 {
+    text-align: center;
+}
+ 
+.box {
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+ 
+/* 1. Display */
+.a1 {
+    display: block;
+    background-color: lightblue;
+}
+.a2 {
+    display: inline-block;
+    background-color: lightgreen;
+    padding: 5px;
+}
+.a3 {
+    display: inline;
+    background-color: yellow;
+}
+.a4 {
+    display: none;
+}
+ 
+/* 2. Margin and Padding */
+.b1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: lightblue;
+}
+.b2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: lightgreen;
+}
+ 
+/* 3. Border */
+.c1 {
+    border: 1px solid black;
+}
+.c2 {
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+}
+.c3 {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+ 
+/* 4. Background */
+.d1 {
+    background-color: #b0d4de;
+}
+.d2 {
+    background-image: url("blur.jpg");
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: lightgray;
+    height: 60px;
+}
+ 
+/* 5. Color */
+.e1 {
+    color: red;
+}
+.e2 {
+    color: #ffffff;
+    background-color: black;
+}
+.e3 {
+    color: rgb(255, 0, 0);
+}
+ 
+/* 6. Font Family */
+.f1 {
+    font-family: Arial;
+}
+.f2 {
+    font-family: "Times New Roman", serif;
+}
+.f3 {
+    font-family: sans-serif;
+}
+ 
+/* 7. Font Size */
+.g1 {
+    font-size: 16px;
+}
+.g2 {
+    font-size: 1rem;
+}
+.g3 {
+    font-size: 20px;
+}
+ 
+/* 8. Font Weight */
+.h1 {
+    font-weight: normal;
+}
+.h2 {
+    font-weight: bold;
+}
+.h3 {
+    font-weight: 400;
+}
+.h4 {
+    font-weight: 700;
+}
+ 
+/* 9. Text Align */
+.i1 {
+    text-align: left;
+}
+.i2 {
+    text-align: center;
+}
+.i3 {
+    text-align: right;
+}
+.i4 {
+    text-align: justify;
+}
+ 
+/* 10. Text Decoration */
+.j1 {
+    text-decoration: none;
+}
+.j2 {
+    text-decoration: underline;
+}
+.j3 {
+    text-decoration: line-through;
+}
+ 
+/* 11. Line Height */
+.k1 {
+    line-height: 1.5;
+}
+.k2 {
+    line-height: 24px;
+}
+ 
+/* 12. Letter Spacing */
+.l1 {
+    letter-spacing: 2px;
+}
+.l2 {
+    letter-spacing: 0.5px;
+}
+ 
+/* 13. Word Spacing */
+.m1 {
+    word-spacing: 5px;
+}
+.m2 {
+    word-spacing: 10px;
+}
+ 
+/* 14. Width */
+.n1 {
+    width: 200px;
+    background-color: lightblue;
+}
+.n2 {
+    width: 50%;
+    background-color: lightgreen;
+}
+.n3 {
+    width: 100%;
+    background-color: lightpink;
+}
+ 
+/* 15. Height */
+.o1 {
+    height: 200px;
+    background-color: lightblue;
+}
+ 
+/* 16. Max Width */
+.p1 {
+    max-width: 1200px;
+    background-color: lightgreen;
+}
+ 
+/* 17. Min Width */
+.q1 {
+    min-width: 300px;
+    background-color: lightblue;
+}
+ 
+/* 18. Max Height */
+.r1 {
+    max-height: 500px;
+    background-color: lightgreen;
+}
+ 
+/* 19. Min Height */
+.s1 {
+    min-height: 200px;
+    background-color: lightpink;
+}
+ 
+/* 20. Box Shadow */
+.t1 {
+    box-shadow: 0 4px 10px gray;
+    padding: 10px;
+}
+.t2 {
+    box-shadow: 2px 2px 5px black;
+    padding: 10px;
+}
+ 
+/* 21. Opacity */
+.u1 {
+    opacity: 1;
+    background-color: blue;
+    color: white;
+}
+.u2 {
+    opacity: 0.5;
+    background-color: blue;
+    color: white;
+}
+.u3 {
+    opacity: 0;
+    background-color: blue;
+    color: white;
+}
+ 
+/* 22. Position */
+.v1 {
+    position: static;
+    background-color: lightblue;
+}
+.v2 {
+    position: relative;
+    left: 30px;
+    background-color: lightgreen;
+}
+.v3 {
+    position: relative;
+    height: 120px;
+    border: 1px solid gray;
+}
+.v4 {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: orange;
+}
+ 
+/* 23. Top Right Bottom Left */
+.w1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: orange;
+}
+ 
+/* 24. Z Index */
+.x1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    background-color: red;
+    z-index: 10;
+}
+.x2 {
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    width: 100px;
+    background-color: green;
+    color: white;
+    z-index: 100;
+}
+ 
+/* 25. Overflow */
+.y1 {
+    width: 200px;
+    height: 40px;
+    overflow: hidden;
+    border: 1px solid gray;
+}
+.y2 {
+    width: 200px;
+    height: 40px;
+    overflow: auto;
+    border: 1px solid gray;
+}
+ 
+/* 26. Flex Direction */
+.z1 {
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+}
+.z2 {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+}
+ 
+/* 27. Justify Content */
+.z3 {
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+}
+.z4 {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+}
+ 
+/* 28. Align Items */
+.z5 {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: lightgray;
+}
+ 
+/* 29. Gap */
+.z6 {
+    display: flex;
+    gap: 20px;
+    background-color: lightgray;
+}
+ 
+/* 30. Flex Wrap */
+.z7 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgray;
+}
+.z7 p {
+    width: 100px;
+}
+ 
+/* 31. Flex Grow */
+.z8 {
+    display: flex;
+    background-color: lightgray;
+}
+.big {
+    flex-grow: 1;
+    background-color: lightblue;
+}
+.small {
+    flex-grow: 0;
+    background-color: lightpink;
+}
+ 
+/* 32. Grid Template Columns */
+.z9 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+ 
+/* 33. Grid Template Rows */
+.z10 {
+    display: grid;
+    grid-template-rows: 100px 200px;
+    gap: 10px;
+}
+ 
+/* 34. Transform */
+.t3 {
+    transform: rotate(45deg);
+    width: 120px;
+    background-color: yellow;
+    margin: 40px;
+}
+.t4 {
+    transform: scale(1.2);
+    width: 120px;
+    background-color: lightgreen;
+    margin: 20px;
+}
+ 
+/* 35. Transition */
+.t5 {
+    width: 200px;
+    background-color: lightblue;
+    transition: all 0.3s ease;
+    padding: 10px;
+}
+.t5:hover {
+    width: 300px;
+    background-color: orange;
+}
