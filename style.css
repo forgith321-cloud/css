@@ -3,7 +3,7 @@ body{
     color: black;
 }
 :default{
-    border: 1px solid black;
+    border: 2px solid black;
     margin: 1cm;
 }
 
