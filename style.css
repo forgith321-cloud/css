@@ -2,8 +2,8 @@ body{
     background-color: aqua;
     color: black;
 }
-body{
-   border: 1cm solid;
+.default{
+   border: 1px solid;
     margin: 1cm;
 }
 
