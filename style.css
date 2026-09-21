@@ -24,7 +24,7 @@ font-weight: 500;
 }
 
 .p6{
-    text-align: center;
+    text-align: right;
 }
 
 .p7{
@@ -41,4 +41,8 @@ font-weight: 500;
 
 .p10{
     word-spacing: 5px;
+}
+
+.p11{
+   width: 20cm;
 }
