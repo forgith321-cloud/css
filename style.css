@@ -43,3 +43,22 @@ font-weight: 500;
     word-spacing: 5px;
 }
 
+.p12{
+    height: 200px;
+}
+
+.p13{
+    max-width: fit-content;
+}
+
+.p14{
+    min-width: fit-content;
+}
+
+.p15{
+    max-height: 300px;
+}
+
+.p16{
+    min-height: 100px;
+}
