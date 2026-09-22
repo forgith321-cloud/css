@@ -52,13 +52,19 @@ font-weight: 500;
 }
 
 .p14{
-    min-width: fit-content;
+    min-width: 50px;
 }
 
 .p15{
-    max-height: 300px;
+    max-height: 20px;
 }
 
 .p16{
-    min-height: 100px;
+    min-height: 50px;
+}
+
+.p17{
+    box-shadow: 0 4px 10px gray;
+box-shadow: 2px 2px 5px black;
+
 }
