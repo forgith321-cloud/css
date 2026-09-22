@@ -48,15 +48,22 @@ font-weight: 500;
 }
 
 .p13{
-    max-width: fit-content;
+    max-width:50px; 
+    border: 3px solid black;
+     padding: 10px;
 }
 
 .p14{
-    min-width: 50px;
+   min-width: 400px; 
+   border: 3px solid black;
+    padding: 10px;
 }
 
 .p15{
-    max-height: 20px;
+  style="max-height: 150px;
+   overflow: auto; 
+   border: 3px solid black;
+    padding: 10px;
 }
 
 .p16{
@@ -64,7 +71,6 @@ font-weight: 500;
 }
 
 .p17{
-    box-shadow: 0 4px 10px gray;
-box-shadow: 2px 2px 5px black;
+    box-shadow: 2cm black;
 
 }
